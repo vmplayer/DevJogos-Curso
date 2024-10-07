@@ -5,6 +5,6 @@ class HelloWorld {
     //Tudo que eu quero que seja mostrado no terminal, sendo chamado ou não dentro de tal.
     static void Main() {
          //Imprime no console a frase "Hello, World!"
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Hello, World!")
     }
-};
+}
