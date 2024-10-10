@@ -10,6 +10,8 @@ class Exercicio8 {
 
         string[] jogos = {"Hollow Knight: Voidheart Edition", "CoD: Black Ops II", "Grand Theft Auto: San Andreas", "Super Coleção 7.784 Jogos", "Celeste"};
 
+        jogos[3] = "Resident Evil 4";
+
         Console.WriteLine("Ou vai ser esse aqui: {0}",jogos[0]);
         Console.WriteLine("Ou vai ser esse aqui: {0}", jogos[1]);
         Console.WriteLine("Ou vai ser esse aqui: {0}", jogos[2]);
