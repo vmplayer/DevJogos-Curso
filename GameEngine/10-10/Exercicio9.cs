@@ -1,0 +1,21 @@
+//Corrigir
+//Criar uma função que recebe seu nome, sua idade e sua altura e imprime no terminal.
+using System;
+
+class Exercicio9 {
+    public void alakkkk(int nomeR, int alturaR){
+
+        int nomeR = alturaR * idadeR;
+        Console.WriteLine(nomeR);
+    }
+
+    static void Main (String[] args)
+
+    Funcao meuObj = new Funcao();
+
+    meuObj.alakkkk(Valdir);
+    meuObj.alakkkk(16);
+    meuObj.alakkkk(1,80);
+
+    meuObj.
+}
