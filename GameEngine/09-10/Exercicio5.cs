@@ -4,10 +4,10 @@ class Execicio5 {
 
     static void Main (String[] args) {
 
-        switch nacionalidade{
+        switch "nacionalidade"{
 
             case "gremio";
-             Console.WriteLine("dale gremio");
+             Console.WriteLine("e no que isso afeta o gremio?");
             break;
 
             case "inter";
@@ -15,7 +15,7 @@ class Execicio5 {
             break;
 
             case "palmeiras";
-             Console.WriteLine("dale porco");
+             Console.WriteLine("dale dale  porco");
             break;
 
             default;
