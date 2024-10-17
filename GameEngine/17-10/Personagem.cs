@@ -2,7 +2,7 @@ using System;
 
 class Personagem 
 {
-    //Atriubutos - atributos são variáveis que minha classe usa.
+    //Atributos - atributos são variáveis que minha classe usa.
     public string nome;
     public int forca;
     public int vida;
