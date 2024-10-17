@@ -10,5 +10,5 @@ class Exercicio9 {
 
     Funcao meuObj = new Funcao();
 
-    meuObj.dados("Leonardo", 29, 1.80);
+    meuObj.dados("valvaldasveia", 29, 1.80);
 }
