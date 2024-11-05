@@ -31,8 +31,6 @@ public class PlayerCollect : MonoBehaviour
 
         if (hit.gameObject.CompareTag("item"))
         {
-            Debug.Log("Item coletado!");
-
             audioSource.PlayOneShot(collectSound);
 
             Instantiate(collectEffect, hit.transform.position, Quaternion.identity);
