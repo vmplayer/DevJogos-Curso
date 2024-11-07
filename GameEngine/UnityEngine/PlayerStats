@@ -1,0 +1,42 @@
+using UnityEngine;
+using UnityEngine.UI;
+
+public class PlayerStats : MonoBehaviour
+{
+    public int maxHealth = 100; //Vida máxima do jogador
+    public int currentHealth; //Vida atual do Jogador
+    public int score; //Pontuação do Jogador
+
+    public Slider HealthBar; //Referência à barra de vida
+    public Text ScoreText; //Referência ao texto de pontuação
+
+    void Start()
+    {
+        //Define a vida inicial como o valor máximo
+        currentHealth = maxHealth;
+        HealthBar.maxValue = maxHealth;
+        HealthBar.value = currentHealth;
+        UpdateScoreText();
+    }
+
+    //Método para atualizar a vida
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth); //Garante que a vida não fique negativa
+        HealthBar.value = currentHealth;
+    }
+
+    //Método para adicionar pontos
+    public void AddScore(int points)
+    {
+        score += points;
+        UpdateScoreText();
+    }
+
+    //Atualiza o texto da pontuação
+    void UpdateScoreText()
+    {
+        ScoreText.text = "Pontuação: " + score;
+    }
+}
