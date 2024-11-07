@@ -4,49 +4,34 @@ using UnityEngine;
 
 public class PlayerCollect : MonoBehaviour
 {
-    public AudioClip collectSound;
+    //public int score = 0;  // Armazena a pontuação do jogador
+
+    // Detecta colisão com o coletável
+    public AudioClip collectSound; // Som de coleta
     private AudioSource audioSource;
-
-    public ParticleSystem collectEffect;
-
-    private ParticleSystem copia;
-    public int score = 0; //Armazena a pontuação do jogador
-
-    private PlayerStats playerStats; //Referência ao PlayerStats
+    private PlayerStats playerStats; // Referência ao PlayerStats
 
     private void Start()
     {
-        //Obtém o componente de áudio
+        // Obtém o componente de áudio
         audioSource = gameObject.AddComponent<AudioSource>();
-
-        //Busca o componente PlayerStats no mesmo GameObject
+         // Busca o componente PlayerStats no mesmo GameObject
         playerStats = GetComponent<PlayerStats>();
     }
 
-    //Detecta colisão com o coletável
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Coletavel"))
         {
-            score += 10; //Aumenta a pontuação
-            Destroy(other.gameObject); //Remove o coletável
-            Debug.Log("Coletável obtido! Pontuação: " + score);
-        }
-    }
+            //score += 10;  // Aumenta a pontuação
 
-    private void OnControllerColliderHit(ControllerColliderHit hit)
-    {
 
-        if (hit.gameObject.CompareTag("Coletavel"))
-        {
-            playerStats.AddScore(10); //Adiciona a determinada quantia de pontos
+            // Adiciona pontos ao chamar o método AddScore de PlayerStats
+            playerStats.AddScore(10); // Adiciona 10 pontos (pode ajustar o valor como preferir)
+
             audioSource.PlayOneShot(collectSound);
-
-            Instantiate(collectEffect, hit.transform.position, Quaternion.identity);
-            copia = Instantiate(collectEffect, hit.transform.position, Quaternion.identity);
-
-            copia.gameObject.SetActive(true);
-            hit.gameObject.SetActive(false);
+            Destroy(other.gameObject);  // Remove o coletável
+            //Debug.Log("Coletável obtido! Pontuação: " + score);
         }
     }
 }
