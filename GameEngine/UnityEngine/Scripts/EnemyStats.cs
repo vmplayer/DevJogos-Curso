@@ -8,10 +8,14 @@ public class EmemyStats : MonoBehaviour
     public int Health; //Vida do oponente
     public ParticleSystem explosao; //Referência à partícula original
     private ParticleSystem copia; //Cópia da partícula
+    
+    public GameObject player; //Referência ao jogador
+    private PlayerStats playerStats; //Referência ao PlayerStats
 
     void Start()
     {
-        Health = 100;
+        Health = 100; //Define o valor da vida 
+        playerStats = player.GetComponent<PlayerStats>(); //Declara o PlayerStats
     }
 
     // Método para atualizar a vida
@@ -25,14 +29,15 @@ public class EmemyStats : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Proj"))
         {
-            TakeDamage(10);
-            Destroy(other.gameObject);
+            TakeDamage(10); //Efeutará o dano
+            Destroy(other.gameObject); //Destrói a munição do disparo
 
             if (Health <= 0)
             {
-                Destroy(this.gameObject);
+                Destroy(this.gameObject); //Destrói o oponente
+                playerStats.AddScore(10); //Adiciona pontuação para o jogador
 
-                copia = Instantiate(explosao, this.transform.position, Quaternion.identity);
+                copia = Instantiate(explosao, this.transform.position, Quaternion.identity); //Copia a partícula
             }
         }
     }
