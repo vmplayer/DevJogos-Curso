@@ -9,9 +9,38 @@ public class EnemyAI : MonoBehaviour
     public float patrolSpeed = 2.0f; // Velocidade de patrulha
     private int currentWaypoint = 0; // Índice do waypoint atual
 
+    public float detectionRange = 10.0f; //Distância de detecção do jogador
+    public float chaseSpeed = 4.0f; //Velocidade ao perseguir
+    private Transform player; //Referência ao jogador
+
+    void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player").transform; //Localiza o jogador pela tag
+    }
+
     void Update()
     {
-        Patrol();
+        //Verifica a distância entre o inimigo e o jogador
+        float distanceToPlayer = Vector3.Distance(transform.position, player.position);
+
+        if (distanceToPlayer <= detectionRange)
+        {
+            ChasePlayer();
+        }
+        else
+        {
+            Patrol();
+        }
+    }
+
+    void ChasePlayer()
+    {
+        Vector3 direction = (player.position - transform.position).normalized;
+        Rigidbody rb = GetComponent<Rigidbody>();
+        rb.position += direction * chaseSpeed * Time.deltaTime;
+
+        //Mantém o inimigo "olhando" para o jogador
+        transform.LookAt(player);
     }
 
     void Patrol()
