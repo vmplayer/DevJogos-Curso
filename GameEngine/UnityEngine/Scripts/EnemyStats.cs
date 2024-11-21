@@ -36,6 +36,7 @@ public class EmemyStats : MonoBehaviour
             {
                 Destroy(this.gameObject); //Destrói o oponente
                 playerStats.AddScore(10); //Adiciona pontuação para o jogador
+                Debug.Log("O Inimigo foi retrogrado");
 
                 copia = Instantiate(explosao, this.transform.position, Quaternion.identity); //Copia a partícula
             }
