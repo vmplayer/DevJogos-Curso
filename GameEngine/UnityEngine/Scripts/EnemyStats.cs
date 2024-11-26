@@ -29,13 +29,13 @@ public class EmemyStats : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Proj"))
         {
-            TakeDamage(10); //Efeutará o dano
+            TakeDamage(70); //Efeutará o dano
             Destroy(other.gameObject); //Destrói a munição do disparo
 
             if (Health <= 0)
             {
                 Destroy(this.gameObject); //Destrói o oponente
-                playerStats.AddScore(10); //Adiciona pontuação para o jogador
+                playerStats.AddScore(50); //Adiciona pontuação para o jogador
                 Debug.Log("O Inimigo foi retrogrado");
 
                 copia = Instantiate(explosao, this.transform.position, Quaternion.identity); //Copia a partícula
