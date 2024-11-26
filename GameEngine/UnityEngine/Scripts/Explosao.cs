@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class explosao : MonoBehaviour
+public class Explosao : MonoBehaviour
 {
     public AudioClip deathSound;
     private AudioSource audioSource;
