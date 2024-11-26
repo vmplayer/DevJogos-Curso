@@ -8,6 +8,10 @@ public class PlayerStats : MonoBehaviour
     public int maxHealth = 100; // Vida máxima
     public int currentHealth; // Vida atual do personagem
     public int score = 0; // Pontuação do jogador
+    public AudioClip deathSound; // Som de coleta
+    private AudioSource audioSource; 
+    public int ammunition;
+    public int ini_amm;
 
     public Slider healthBar; // Referência à barra de vida
     public TMP_Text scoreText; // Referência ao texto de pontuação
@@ -25,6 +29,10 @@ public class PlayerStats : MonoBehaviour
         healthBar.value = currentHealth;
         //Guarda a cor original da barra
         originalColor = healthBarFill.color;
+        ammunition = 5;
+        ini_amm = ammunition;
+
+        audioSource = gameObject.AddComponent<AudioSource>();
 
         UpdateScoreText();
     }
@@ -41,12 +49,20 @@ public class PlayerStats : MonoBehaviour
         {
             StartCoroutine(FlashRed());
         }
+
+        audioSource.PlayOneShot(deathSound);
     }
 
     // Método para adicionar pontos
     public void AddScore(int points)
     {
         score += points;
+        UpdateScoreText();
+    }
+
+    public void Addammunition(int caixamunicao)
+    {
+        ammunition += caixamunicao;
         UpdateScoreText();
     }
 
@@ -63,6 +79,7 @@ public class PlayerStats : MonoBehaviour
         healthBarFill.color = Color.red; //Muda a cor para vermelho
 
         yield return new WaitForSeconds(flashDuration); //Aguarda o tempo da piscada
+        healthBarFill.color = originalColor;
         isFlashing = false; //Define como não piscando
     }
 }
