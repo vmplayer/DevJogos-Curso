@@ -5,25 +5,26 @@ using TMPro;
 
 public class PlayerStats : MonoBehaviour
 {
-    public int maxHealth = 100; // Vida máxima
-    public int currentHealth; // Vida atual do personagem
-    public int score = 0; // Pontuação do jogador
-    public AudioClip deathSound; // Som de coleta
+    public int maxHealth = 100; //Vida máxima
+    public int currentHealth; //Vida atual do personagem
+    public int score = 0; //Pontuação do jogador
+    public AudioClip deathSound; //Som de morte
     private AudioSource audioSource; 
-    public int ammunition;
-    public int ini_amm;
+    public int ammunition; //Munição
+    public int ini_amm; //Munição Inicial
+    public TMP_Text ammText; //Referência ao contador de munição
 
-    public Slider healthBar; // Referência à barra de vida
-    public TMP_Text scoreText; // Referência ao texto de pontuação
-     public Image healthBarFill; // A parte que preenche a barra para alterar a cor
+    public Slider healthBar; //Referência à barra de vida
+    public TMP_Text scoreText; //Referência ao texto de pontuação
+    public Image healthBarFill; //A parte que preenche a barra para alterar a cor
 
-     private Color originalColor; //Cor original da barra
-     private bool isFlashing = false; //Controla se está piscando ou não
-     private float flashDuration = 0.2f; //Duração do efeito de piscar
+    private Color originalColor; //Cor original da barra
+    private bool isFlashing = false; //Controla se está piscando ou não
+    private float flashDuration = 0.2f; //Duração do efeito de piscar
 
     void Start()
     {
-        // Define a vida inicial como o valor máximo
+        //Define a vida inicial como o valor máximo
         currentHealth = maxHealth;
         healthBar.maxValue = maxHealth;
         healthBar.value = currentHealth;
@@ -35,16 +36,17 @@ public class PlayerStats : MonoBehaviour
         audioSource = gameObject.AddComponent<AudioSource>();
 
         UpdateScoreText();
+        UpdateAmmText();
     }
 
-    // Método para atualizar a vida
+    //Método para atualizar a vida
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        //currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth); // Garante que a vida não fique negativa
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth); // Garante que a vida não fique negativa
         healthBar.value = currentHealth;
 
-        // Se a vida ainda está acima de zero e não está piscando, inicie o efeito
+        //Se a vida ainda está acima de zero e não está piscando, inicie o efeito
         if(currentHealth > 0 && !isFlashing)
         {
             StartCoroutine(FlashRed());
@@ -53,7 +55,7 @@ public class PlayerStats : MonoBehaviour
         audioSource.PlayOneShot(deathSound);
     }
 
-    // Método para adicionar pontos
+    //Método para adicionar pontos
     public void AddScore(int points)
     {
         score += points;
@@ -63,13 +65,19 @@ public class PlayerStats : MonoBehaviour
     public void Addammunition(int caixamunicao)
     {
         ammunition += caixamunicao;
-        UpdateScoreText();
+        UpdateAmmText();
     }
 
-    // Atualiza o texto da pontuação
+    //Atualiza o texto da pontuação
     void UpdateScoreText()
     {
         scoreText.text = "Pontuação: " + score;
+    }
+
+    //Atualiza o texto da munição
+    public void UpdateAmmText()
+    {
+        ammText.text = "Munição: " + ammunition;
     }
 
     //Corrotina para fazer a barra piscar em vermelho
