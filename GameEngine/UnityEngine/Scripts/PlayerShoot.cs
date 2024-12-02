@@ -7,32 +7,32 @@ public class PlayerShoot : MonoBehaviour
     public float projectileSpeed = 20f; // Velocidade do projétil
     public AudioClip shootSound; // Som de coleta
     private AudioSource audioSource; 
-
-    private PlayerStats stats;
+    private PlayerStats playerStats; //Referência ao PlayerStats
     
     private void Start()
     {
         // Obtém o componente de áudio
         audioSource = gameObject.AddComponent<AudioSource>();
-        stats =  GetComponent<PlayerStats>();
+        playerStats =  GetComponent<PlayerStats>();
     }
     
     void Update()
     {
-        // Verifica se o jogador pressionou a tecla para disparar (pode ser "Espaço")
+        // Verifica se o jogador pressionou a tecla para disparar (pode ser "Botão Esquerdo")
         if (Input.GetMouseButtonDown(0))
         {
             Shoot(); // Executa o método de disparo
+            playerStats.UpdateAmmText(); //Atualiza o número de munições no PlayerStats
         }
     }
 
     void Shoot()
     {
-        stats.ammunition -= 1;
-        if(stats.ammunition <= 0)
+        playerStats.ammunition -= 1;
+        if(playerStats.ammunition <= 0)
         {
-            stats.ammunition = 0;
-            Debug.Log("Você esta sem munição");
+            playerStats.ammunition = 0;
+            Debug.Log("Você está sem munição! Recarregue.");
         } else {
         // Instancia o projétil no ponto de disparo com rotação padrão
         GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
@@ -41,7 +41,7 @@ public class PlayerShoot : MonoBehaviour
         Rigidbody rb = projectile.GetComponent<Rigidbody>();
         if (rb != null)
         {
-            rb.velocity = transform.forward * projectileSpeed; // Define a velocidade do projétil
+            rb.velocity = shootPoint.forward * projectileSpeed; // Define a velocidade do projétil
             audioSource.PlayOneShot(shootSound);
         }
         }
