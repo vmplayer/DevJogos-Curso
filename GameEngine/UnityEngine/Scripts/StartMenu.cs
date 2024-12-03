@@ -11,7 +11,7 @@ public class StartMenu : MonoBehaviour
     //Sair do jogo
     public void QuitGame()
     {
-        //Na Unity, este comando encerra o jogo compilado (só funciona depois que o jogo estiver pronto, não na Unity)
+        //Na Unity, este comando encerra o jogo compilado (só funciona depois que o jogo estiver pronto (construído), não na Unity)
         Debug.Log("Saindo do jogo...");
         Application.Quit();
     }
@@ -19,6 +19,6 @@ public class StartMenu : MonoBehaviour
     //Esse método é chamado no final da animação
     public void TrocaCena()
     {
-        SceneManager.LoadScene(Jogo);
+        SceneManager.LoadScene(1);
     }
 }
