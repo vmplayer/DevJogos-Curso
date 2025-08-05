@@ -28,12 +28,12 @@
 <a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/texturas">Texturização</a>
 
 ## Modelagem de Cenários
-<p> Primeira unidade curricular do curso, focada na criação de cenários 3D, texturização e aplicação dos mesmos, utilizando o <a href="https://www.blender.org/" target="_blank">Blender</a>.</p>
+<p> Primeira unidade curricular do curso, focada na criação de cenários 3D, texturização e aplicação dos mesmos, utilizando o <a href="https://www.blender.org/">Blender</a>.</p>
 
 <p><a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/cenarios">Modelagem de Cenários</a></p>
 
 ## Modelagem de Personagens
-<p> Esta unidade curricular é focada na criação, texturização e aplicação de personagens dentro da GameEngine, utilizando o serviço pago <a href="https://www.autodesk.com/br/products/maya/overview?panel=buy&mktvar002=afc_br_nmpi_ppc&AID=12904993&PID=8299320&gclsrc=aw.ds&&cjevent=Cj0KCQjw18bEBhCBARIsAKuAFEYxK_ztdYnT0p-zIcFKdPBRmYxUV4-G39Hq3ESH8R4D4k3jFzS_unEaAtSKEALw_wcB&click_id=Cj0KCQjw18bEBhCBARIsAKuAFEYxK_ztdYnT0p-zIcFKdPBRmYxUV4-G39Hq3ESH8R4D4k3jFzS_unEaAtSKEALw_wcB&gclid=Cj0KCQjw18bEBhCBARIsAKuAFEYxK_ztdYnT0p-zIcFKdPBRmYxUV4-G39Hq3ESH8R4D4k3jFzS_unEaAtSKEALw_wcB&gclsrc=aw.ds&gad_source=1&gad_campaignid=821844161&gbraid=0AAAAADmwRu4zjERVT4uJ3mgbEGbUXvk4w" target="_blank">Maya</a>.</p>
+<p> Esta unidade curricular é focada na criação, texturização e aplicação de personagens dentro da GameEngine, utilizando o serviço pago <a href="https://www.autodesk.com/br/products/maya/overview?panel=buy&mktvar002=afc_br_nmpi_ppc&AID=12904993&PID=8299320&gclsrc=aw.ds&&cjevent=Cj0KCQjw18bEBhCBARIsAKuAFEYxK_ztdYnT0p-zIcFKdPBRmYxUV4-G39Hq3ESH8R4D4k3jFzS_unEaAtSKEALw_wcB&click_id=Cj0KCQjw18bEBhCBARIsAKuAFEYxK_ztdYnT0p-zIcFKdPBRmYxUV4-G39Hq3ESH8R4D4k3jFzS_unEaAtSKEALw_wcB&gclid=Cj0KCQjw18bEBhCBARIsAKuAFEYxK_ztdYnT0p-zIcFKdPBRmYxUV4-G39Hq3ESH8R4D4k3jFzS_unEaAtSKEALw_wcB&gclsrc=aw.ds&gad_source=1&gad_campaignid=821844161&gbraid=0AAAAADmwRu4zjERVT4uJ3mgbEGbUXvk4w">Maya</a>.</p>
 
 <p><a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/personagens">Modelagem de Personagens</a></p>
 
