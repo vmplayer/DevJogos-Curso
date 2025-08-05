@@ -19,8 +19,8 @@
 <p> Os projetos utilizados para o aprendizado da linguagem C# (.cs) podem ser localizados por dias antes de entrar na pasta específica para a UnityEngine.</p>
 <p> Os projetos utilizados dentro da UnityEngine podem ser encontrados na pasta própria da UnityEngine, podendo ser encontrado as funções e códigos necessários para o funcionamento de um personagem.</p>
 
-<p><a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/programacao-e-unityengine">Linguagem de programação C#</a></p>
-<p><a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/GameEngine/unityengine">Arquivos utilizados dentro da Engine</a></p>
+<p><a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/programacao-e-engine">Linguagem de programação C#</a></p>
+<p><a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/programacao-e-engine/unityengine">Arquivos utilizados dentro da Engine</a></p>
 
 ## Texturização
 <p> A Unidade Curricular de texturização teve foco em colocar texturas em objetos simples, e também na criação de texturas.</p>
@@ -28,12 +28,12 @@
 <a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/texturas">Texturização</a>
 
 ## Modelagem de Cenários
-<p> Primeira unidade curricular do curso, focada na criação de cenários 3D, texturização e aplicação dos mesmos, utilizando o <a href="https://www.blender.org/">Blender</a>.</p>
+<p> Primeira unidade curricular do curso, focada na criação de cenários 3D, texturização e aplicação dos mesmos, utilizando o <a href="https://www.blender.org/" target="_blank">Blender</a>.</p>
 
 <p><a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/cenarios">Modelagem de Cenários</a></p>
 
 ## Modelagem de Personagens
-<p> Esta unidade curricular é focada na criação, texturização e aplicação de personagens dentro da GameEngine, utilizando o serviço pago <a href="https://www.autodesk.com/br/products/maya/overview?panel=buy&mktvar002=afc_br_nmpi_ppc&AID=12904993&PID=8299320&gclsrc=aw.ds&&cjevent=Cj0KCQjw18bEBhCBARIsAKuAFEYxK_ztdYnT0p-zIcFKdPBRmYxUV4-G39Hq3ESH8R4D4k3jFzS_unEaAtSKEALw_wcB&click_id=Cj0KCQjw18bEBhCBARIsAKuAFEYxK_ztdYnT0p-zIcFKdPBRmYxUV4-G39Hq3ESH8R4D4k3jFzS_unEaAtSKEALw_wcB&gclid=Cj0KCQjw18bEBhCBARIsAKuAFEYxK_ztdYnT0p-zIcFKdPBRmYxUV4-G39Hq3ESH8R4D4k3jFzS_unEaAtSKEALw_wcB&gclsrc=aw.ds&gad_source=1&gad_campaignid=821844161&gbraid=0AAAAADmwRu4zjERVT4uJ3mgbEGbUXvk4w">Maya</a>.</p>
+<p> Esta unidade curricular é focada na criação, texturização e aplicação de personagens dentro da GameEngine, utilizando o serviço pago <a href="https://www.autodesk.com/br/products/maya/overview?panel=buy&mktvar002=afc_br_nmpi_ppc&AID=12904993&PID=8299320&gclsrc=aw.ds&&cjevent=Cj0KCQjw18bEBhCBARIsAKuAFEYxK_ztdYnT0p-zIcFKdPBRmYxUV4-G39Hq3ESH8R4D4k3jFzS_unEaAtSKEALw_wcB&click_id=Cj0KCQjw18bEBhCBARIsAKuAFEYxK_ztdYnT0p-zIcFKdPBRmYxUV4-G39Hq3ESH8R4D4k3jFzS_unEaAtSKEALw_wcB&gclid=Cj0KCQjw18bEBhCBARIsAKuAFEYxK_ztdYnT0p-zIcFKdPBRmYxUV4-G39Hq3ESH8R4D4k3jFzS_unEaAtSKEALw_wcB&gclsrc=aw.ds&gad_source=1&gad_campaignid=821844161&gbraid=0AAAAADmwRu4zjERVT4uJ3mgbEGbUXvk4w" target="_blank">Maya</a>.</p>
 
 <p><a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/personagens">Modelagem de Personagens</a></p>
 
