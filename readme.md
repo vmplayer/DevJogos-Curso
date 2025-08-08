@@ -22,7 +22,15 @@
 <p><a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/programacao-e-engine">Linguagem de programação C#</a></p>
 <p><a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/programacao-e-engine/unityengine">Arquivos utilizados dentro da Engine</a></p>
 
+### Projeto Final do Curso
+
+<p>O projeto final do curso, por mais simples que seja, funcional, a proposta é um jogo simples de terror em um boliche abandonado.</p>
+
+<p><a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/programacao-e-engine/projeto-final">Projeto Final</a></p>
+
+
 ## Texturização
+
 <p> A Unidade Curricular de texturização teve foco em colocar texturas em objetos simples, e também na criação de texturas.</p>
 
 <a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/texturas">Texturização</a>
