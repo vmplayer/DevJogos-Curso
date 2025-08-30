@@ -6,7 +6,6 @@
 
 - [Sobre](#sobre)
 - [C# e UnityEngine](#cs-e-unityengine)
-   - [Projeto Final do Curso](#projeto-final-do-curso)
 - [Texturização](#texturização)
 - [Modelagem de Cenários](#modelagem-de-cenários)
 - [Modelagem de personagens](#modelagem-de-personagens)
