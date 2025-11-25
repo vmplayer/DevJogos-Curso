@@ -25,6 +25,7 @@
 ### Projeto Final do Curso
 
 <p>O projeto final do curso, por mais simples que seja, funcional, a proposta é um jogo simples de terror em um boliche abandonado.</p>
+<p>O projeto final do curso irá receber atualizações no futuro, intitulados como uma versão 1.0.0!</p>
 
 <p><a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/programacao-e-engine/projeto-final">Projeto Final</a></p>
 
