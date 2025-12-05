@@ -1,6 +1,10 @@
 # Curso de Desenvolvimento de Jogos Eletrônicos
 
 <p>Todo o repositório utilizado no curso, usando a linguagem C#, dentro da UnityEngine.</p>
+<p align="center">
+  <img src="https://cdn.sanity.io/images/fuvbjjlp/production/b749e2a6d2c21623ea89d0443410ba24f1aa420a-512x512.png" alt="Logotipo da Unity Engine" height="50">
+  <img src="https://raw.githubusercontent.com/learnbr/csharp/master/csharp-logo.png" alt="Logotipo do C#" height="50">
+</p>
 
 ## Sumário
 
