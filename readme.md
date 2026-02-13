@@ -1,56 +1,71 @@
 # Curso de Desenvolvimento de Jogos Eletrônicos
 
-<p>Todo o repositório utilizado no curso, usando a linguagem C#, dentro da UnityEngine.</p>
-<p align="center">
-  <img src="https://cdn.sanity.io/images/fuvbjjlp/production/b749e2a6d2c21623ea89d0443410ba24f1aa420a-512x512.png" alt="Logotipo da Unity Engine" height="50">
-  <img src="https://raw.githubusercontent.com/learnbr/csharp/master/csharp-logo.png" alt="Logotipo do C#" height="50">
-</p>
+Todo o repositório utilizado no curso, usando a linguagem C#, dentro da UnityEngine.
+
+<div align="center">
+  <img src="https://cdn.sanity.io/images/fuvbjjlp/production/b749e2a6d2c21623ea89d0443410ba24f1aa420a-512x512.png" alt="Unity Engine" height="50px">
+  <img src="https://raw.githubusercontent.com/learnbr/csharp/master/csharp-logo.png" alt="C#" height="50px">
+</div>
 
 ## Sumário
 
 - [Sobre](#sobre)
 - [C# e UnityEngine](#cs-e-unityengine)
+  - [Projeto Final do Curso](#projeto-final-do-curso)
 - [Texturização](#texturização)
 - [Modelagem de Cenários](#modelagem-de-cenários)
 - [Modelagem de personagens](#modelagem-de-personagens)
 - [Riggings e Animações](#riggings-e-animações)
+  - [RAJ-T1](#raj-t1-repositório)
 
 ## Sobre
-<p> Este curso técnico de qualificação profissional, feito em 2024 no Senac e com certificado obtido, teve seu foco em criações de jogos 3D utilizando a UnityEngine. Neste repositório se encontram os arquivos criados por mim durante o curso.</p>
+Este curso técnico de qualificação profissional, concluído em 2024 no Senac-RS, teve seu foco em criações de jogos 3D utilizando a UnityEngine. Neste repositório se encontram os arquivos criados por mim durante o curso.
 
 ## CS e UnityEngine
 
-<p> Os projetos utilizados para o aprendizado da linguagem C# (.cs) podem ser localizados por dias antes de entrar na pasta específica para a UnityEngine.</p>
-<p> Os projetos utilizados dentro da UnityEngine podem ser encontrados na pasta própria da UnityEngine, podendo ser encontrado as funções e códigos necessários para o funcionamento de um personagem.</p>
+Esta pasta pode ser dividida em duas partes:
 
-<p><a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/programacao-e-engine">Linguagem de programação C#</a></p>
-<p><a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/programacao-e-engine/unityengine">Arquivos utilizados dentro da Engine</a></p>
+- Os estudos da linguagem C#, sendo definido por datas.
+  - [Estudos sobre C#](https://github.com/vmplayer/DevJogos-Curso/tree/main/programacao-e-engine)
+
+- A pasta da UnityEngine, local onde menciona alguns códigos simples para o funcionamento de personagens e inimigos.
+  - [Arquivos utilizados dentro da Engine](https://github.com/vmplayer/DevJogos-Curso/tree/main/programacao-e-engine/unityengine)
 
 ### Projeto Final do Curso
 
-<p>O projeto final do curso, por mais simples que seja, funcional, a proposta é um jogo simples de terror em um boliche abandonado.</p>
-<p>O projeto final do curso irá receber atualizações no futuro, intitulados como uma versão 1.0.0!</p>
+O projeto final do curso, por mais simples que seja, funcional, a proposta é um jogo simples de terror em um boliche abandonado.
 
-<p><a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/programacao-e-engine/projeto-final">Projeto Final</a></p>
+Os códigos sobre personagens, mecânicas e inimigos estão mais completos dentro do **Projeto Final**. 
+
+O projeto final do curso irá receber atualizações no futuro, intitulados como uma versão 1.0.0!
+
+[Projeto Final](https://github.com/vmplayer/DevJogos-Curso/tree/main/programacao-e-engine/projeto-final)
 
 
 ## Texturização
 
-<p> A Unidade Curricular de texturização teve foco em colocar texturas em objetos simples, e também na criação de texturas.</p>
+A Unidade Curricular de texturização teve foco em colocar texturas em objetos simples, e também na criação de texturas.
 
-<a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/texturas">Texturização</a>
+[Texturização](https://github.com/vmplayer/DevJogos-Curso/tree/main/texturas)
 
 ## Modelagem de Cenários
-<p> Primeira unidade curricular do curso, focada na criação de cenários 3D, texturização e aplicação dos mesmos, utilizando o <a href="https://www.blender.org/">Blender</a>.</p>
+Primeira unidade curricular do curso, focada na criação de cenários 3D, texturização e aplicação dos mesmos, utilizando o [Blender](https://www.blender.org/)
 
-<p><a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/cenarios">Modelagem de Cenários</a></p>
+[Modelagem de Cenários](https://github.com/vmplayer/DevJogos-Curso/tree/main/cenarios)
 
 ## Modelagem de Personagens
-<p> Esta unidade curricular é focada na criação, texturização e aplicação de personagens dentro da GameEngine, utilizando o serviço pago <a href="https://www.autodesk.com/br/products/maya/overview?panel=buy&mktvar002=afc_br_nmpi_ppc&AID=12904993&PID=8299320&gclsrc=aw.ds&&cjevent=Cj0KCQjw18bEBhCBARIsAKuAFEYxK_ztdYnT0p-zIcFKdPBRmYxUV4-G39Hq3ESH8R4D4k3jFzS_unEaAtSKEALw_wcB&click_id=Cj0KCQjw18bEBhCBARIsAKuAFEYxK_ztdYnT0p-zIcFKdPBRmYxUV4-G39Hq3ESH8R4D4k3jFzS_unEaAtSKEALw_wcB&gclid=Cj0KCQjw18bEBhCBARIsAKuAFEYxK_ztdYnT0p-zIcFKdPBRmYxUV4-G39Hq3ESH8R4D4k3jFzS_unEaAtSKEALw_wcB&gclsrc=aw.ds&gad_source=1&gad_campaignid=821844161&gbraid=0AAAAADmwRu4zjERVT4uJ3mgbEGbUXvk4w">Maya</a>.</p>
+Esta unidade curricular é focada na criação, texturização e aplicação de personagens dentro da Unity, utilizando o serviço pago [Maya](https://www.autodesk.com/br/products/maya/overview).
 
-<p><a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/personagens">Modelagem de Personagens</a></p>
+[Modelagem de Personagens](https://github.com/vmplayer/DevJogos-Curso/tree/main/personagens)
 
 ## Riggings e Animações
-<p> Esta unidade curricular tem foco em animar personagens, gravar capturas leves (playblasts) e implementar os personagens já animados dentro da UnityEngine.</p>
+Esta unidade curricular tem foco em animar personagens, gravar capturas (playblasts), reduzir seu tamanho ao mínimo e então implementar os personagens já animados dentro da Unity.
 
-<p><a href="https://github.com/vmplayer/DevJogos-Curso/tree/main/riggings-e-animacao">Riggings e Animações</a></p>
+[Riggings e Animações](https://github.com/vmplayer/DevJogos-Curso/tree/main/riggings-e-animacao)
+
+### RAJ-T1 (Repositório)
+Alguns documentos a respeito de Riggings e Animações podem não estar presentes neste repositório. Este repositório alternativo contém todos os arquivos restantes, por mais que não sejam considerados de extrema importância.
+
+Geralmente serão arquivos .mb (já que usam a extensão de arquivo do Maya).
+
+[RAJ-T1](https://github.com/vmplayer/RAJ-T1)
