@@ -10,11 +10,12 @@ Todo o repositório utilizado no curso, usando a linguagem C#, dentro da UnityEn
 ## Sumário
 
 - [Sobre](#sobre)
+- [Tecnologias utilizadas](#tecnologias-utilizadas)
 - [C# e UnityEngine](#cs-e-unityengine)
   - [Projeto Final do Curso](#projeto-final-do-curso)
 - [Texturização](#texturização)
 - [Modelagem de Cenários](#modelagem-de-cenários)
-- [Modelagem de personagens](#modelagem-de-personagens)
+- [Modelagem de Personagens](#modelagem-de-personagens)
 - [Riggings e Animações](#riggings-e-animações)
   - [RAJ-T1](#raj-t1-repositório)
 
