@@ -19,17 +19,16 @@ Todo o repositório utilizado no curso, usando a linguagem C#, dentro da UnityEn
 - [Riggings e Animações](#riggings-e-animações)
   - [RAJ-T1](#raj-t1-repositório)
 
-## Tecnologias utilizadas
-| Tecnologia    | Área                     |
-| ------------- | ------------------------ |
-| Autodesk Maya | Modelagem 3D \| Animação |
-| Blender       | Modelagem 3D \| Cenários |
-| C#            | Linguagem de programação |
-| Unity 3D      | Motor de jogo            |
-
-
 ## Sobre
 Este curso técnico de qualificação profissional, concluído em 2024 no Senac-RS, teve seu foco em criações de jogos 3D utilizando a UnityEngine. Neste repositório se encontram os arquivos criados por mim durante o curso.
+
+## Tecnologias utilizadas
+| Tecnologia          | Área                                    |
+| ------------------- | --------------------------------------- |
+| Autodesk Maya       | Modelagem 3D \| Personagens e Animações |
+| Blender             | Modelagem 3D \| Cenários                |
+| C# \| MonoBehaviour | Linguagem de programação                |
+| Unity 3D            | Motor de jogo                           |
 
 ## CS e UnityEngine
 
