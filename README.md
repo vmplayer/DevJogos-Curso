@@ -5,6 +5,8 @@ Todo o repositório utilizado no curso, usando a linguagem C#, dentro da UnityEn
 <div align="center">
   <img src="https://cdn.sanity.io/images/fuvbjjlp/production/b749e2a6d2c21623ea89d0443410ba24f1aa420a-512x512.png" alt="Unity Engine" height="50px">
   <img src="https://raw.githubusercontent.com/learnbr/csharp/master/csharp-logo.png" alt="C#" height="50px">
+  <img src="https://www.blender.org/wp-content/uploads/2020/07/blender_community_logo_white.png" alt="Blender" height="50px">
+  <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/autodesk-maya-icon.png" alt="AutoDesk Maya" height="50px">
 </div>
 
 ## Sumário
