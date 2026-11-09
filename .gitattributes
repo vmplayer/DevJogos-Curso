@@ -1,0 +1,9 @@
+# Força todos os arquivos .cs a serem computados estritamente como C#
+*.cs linguist-language=C#
+
+# Ignora pastas de pacotes terceiros (como TextMesh Pro ou Assets de terceiros) que poluem as estatísticas
+Assets/TextMesh Pro/** linguist-vendored
+Assets/Plugins/** linguist-vendored
+
+# Se você gerou uma Build dentro do projeto, mande o GitHub ignorar a pasta da Build
+Build/** linguist-generated
