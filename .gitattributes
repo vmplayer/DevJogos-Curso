@@ -1,3 +1,6 @@
+# Força todos os scripts .cs a serem lidos estritamente como C#
+*.cs linguist-language=C#
+
 # Ignora completamente a build que está confundindo o GitHub
 programacao-e-engine/projeto-final/MonoBleedingEdge/** linguist-vendored
 programacao-e-engine/projeto-final/My project (1)_Data/** linguist-vendored
